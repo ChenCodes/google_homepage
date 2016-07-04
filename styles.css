@@ -1,0 +1,128 @@
+body {
+	/*All the */
+	font-size: small;
+	/*If helvetica isn't available, then we do sans-serif*/
+	font-family: helvetica, sans-serif;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*The header links are black while the footer links are light grey*/
+a:link, a:visited {
+	color: black;
+}
+
+#bottombar a:link, #bottombar a:visited {
+	color: #666;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	display: block;
+	padding: 0 0 0 18px;
+}
+
+#topbar ul li:first-child {
+	margin-top: -10px;
+}
+
+
+#share {
+	/*Padding ensures that */
+	padding: 3px 7px 3px 7px;
+	background-color: #a1a1a1;
+  	border: 5px solid transparent;
+  	margin-top: -8px;
+}
+
+#share:hover {
+
+	background-color: grey;
+}
+
+#container {
+	margin: 20 0 0 0 auto;
+	text-align: center;
+}
+
+#topbar {
+	margin: 25px 40px 0 0;
+	height: 100px;
+}
+
+#logo {
+	margin: auto;
+	width: 35em;
+}
+
+#searchbar {
+	margin: auto;
+	padding-top: 15px;
+}
+
+input {
+	height: 30px;
+	width: 40em
+}
+
+#searchOptions {
+	margin-top:10px;
+}
+
+
+/*This is for the google search and the I'm feeling lucky button.*/
+.button {
+	/*Set the background color of the buttons.*/
+	background-color: #b9e7ff;
+	/*In this button, if we want to do more modification, then we can set the font to be a certain size.*/
+	font: bold 11px/20px Arial,sans-serif!important;
+	/*In here, I set the border color */
+	border: 1px solid #dcdcdc;
+	/*In here, I set the border radius*/
+	border-radius: 4px;
+	/*The numbers are: y top side, x right side, y bottom side, x left side*/
+	padding: 4px 4px 4px 4px;
+	/*This is to determine how far our buttons are from each other and other objects nearby*/
+	margin: 10px;
+	/*Usually will have this, buttons don't have a lot of text so should be inline.*/
+	display: inline-block;
+}
+
+/*Here we change the color of the button if it's being hovered over*/
+.button:hover, .searchbar:hover {
+	border: 4px solid #FFB039;
+}
+
+#bottombar {
+	background-color: #f2f2f2;
+	border-top: 2px solid #e4e4e4;
+	height: 40px;
+	clear: both;
+	position: relative;
+	margin-top: 215px;
+}
+
+#bottombar ul {
+	margin-left: 27px;
+	margin-top: 5px
+}
+
+#bottomleft {
+	float:left;
+}
+
+#bottomright {
+	margin-right: 27px;
+}
